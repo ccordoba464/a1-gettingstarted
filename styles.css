@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f9f8;
+}
+
+h1,
+h2 {
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+  background-color: #b23348;
+  transition: all 1s ease-out;
+}
+
+h1:hover,
+h2:hover {
+  background-color: #891a2c;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  padding: 0 10px;
+  margin: 18px 10px;
+}
+
+a {
+  color: blue;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.p-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.dropdown-container {
+  margin: 40px 20px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  color: rgb(247, 247, 247);
+  cursor: pointer;
+}
+
+.menu-title {
+  background-color: #61bdad;
+  border: 2px solid black;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(247, 247, 247);
+  color: black;
+  display: none;
+}
+
+ul {
+  font-size: 1.5rem;
+}
+
+li {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ul.dropdown-menu li:hover {
+  background: rgb(47, 46, 46);
+}
+
+.visible {
+  display: block;
+  animation: expand 0.5s ease-in-out;
+  transform-origin: top;
+}
+
+img {
+  max-width: 90%;
+}
+
+@keyframes expand {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+thead > tr > td {
+  background-color: #61bdad;
+  font-weight: bold;
+}

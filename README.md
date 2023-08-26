@@ -12,6 +12,8 @@ visible class rules: makes element using this class into a block display, animat
 
 expand at-rule: elements with this rule starts completely flat using scaleY(0), then at increases to full size once the animation completes.
 
+table rules: set table-layout to fixed, reduced border spacing between data panes, reduced width size to 80% of the parent element, changed font size, and enabled border-collapse
+
 - **JS Animation**:
 
 Dropdown menu in Working Experience section using css properties like transform and animation, @-rules, as well as JS to inject a class that makes dropdown options visible.

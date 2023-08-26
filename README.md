@@ -18,17 +18,17 @@ Dropdown menu in Working Experience section using css properties like transform 
 
 - **HTML tag experimentation**:
 
-Used <a> tag to link text to WPI's home page.
+Used a link tag to link text to WPI's home page.
 
-Used <img> tag to link a picture of myself to the personal info section of the website
+Used img tag to link a picture of myself to the personal info section of the website
 
-Used a <strong> tag to make some text bold
+Used a strong tag to make some text bold
 
-Used a <em> tag to make some text italic
+Used a em tag to make some text italic
 
-Used <table>, <thead>, <tbody>, <tr>, and <td> tags to store information about personal skills
+Used table, thead, tbody, tr, and td tags to store information about personal skills
 
-### Design Achievements
+## Design Achievements
 
 - **Design Color Palette**:
 

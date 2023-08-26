@@ -112,19 +112,21 @@ Dropdown menu using css properties and @-rules as well as JS to inject a class t
 
 - **HTML tag experimentation**:
 
-Used a tag to link text to WPI's home page.
+Used <a> tag to link text to WPI's home page.
 
 Used <img> tag to link a picture of myself to the personal info section of the website
 
-Used a strong tag to make some text bold
+Used a <strong> tag to make some text bold
 
-Used a em tag to make some text italic
+Used a <em> tag to make some text italic
 
-Used table, thead, tbody, tr, and td tags to store information about personal skills
+Used <table>, <thead>, <tbody>, <tr>, and <td> tags to store information about personal skills
 
 ### Design Achievements
 
 - **Design Color Palette**:
+
+Color palette from coolors.com. Screenshot of the colors named coolors.png.
 
 - **Used the Nunito Sans Font from Google Fonts**:
 

@@ -14,7 +14,7 @@ expand at-rule: elements with this rule starts completely flat using scaleY(0), 
 
 - **JS Animation**:
 
-Dropdown menu using css properties and @-rules as well as JS to inject a class to make dropdown options visible.
+Dropdown menu in Working Experience section using css properties like transform and animation, @-rules, as well as JS to inject a class that makes dropdown options visible.
 
 - **HTML tag experimentation**:
 
